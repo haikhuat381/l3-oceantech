@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+.resume-left {
+  background-color: rgba(34, 42, 69, 0.96);
+  box-sizing: border-box;
+  color: white;
+  padding-bottom: 48px;
+}
+
+.item-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 24px;
+  gap: 10px;
+}
+.title-info,
+.title-hobby,
+.title-skill {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-button:hover {
+  color: #1876b2;
+}
+.remove-button:hover {
+  color: #d32f2f;
+}
